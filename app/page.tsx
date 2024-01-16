@@ -1,8 +1,17 @@
+'use client'
+
 import Image from 'next/image'
 import Slide1 from './components/Slide1'
 import Definitions from './components/Definitions'
+import { gsap } from "gsap";
+import { ScrollToPlugin } from 'gsap/all';
+
+gsap.registerPlugin(ScrollToPlugin)
 
 export default function Home() {
+  const handleButtonClick = () => {
+    gsap.to(window, { duration: 2, scrollTo: { y: '.definitions', offsetY: 10 } });
+  }
   // const doc = document.documentElement.classList.add('dark')
   // document.documentElement.classList.add('dark');
   return (
@@ -19,17 +28,12 @@ export default function Home() {
           priority
         />
           */}
-          <h1 className="  text-center text-4xl text-white m-3">Using Guidance of Economy Express (International) from Netherlands</h1>
+          <h1 className="  text-center text-3xl md:text-4xl text-white m-3 sm:mt-12">Using Guidance of Economy Express (International) from Netherlands</h1>
       </div>
     
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <button onClick={handleButtonClick} className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Definitions{' '}
           </h2>
@@ -37,7 +41,7 @@ export default function Home() {
           {/* <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Find in-depth information about Next.js features and API.
           </p> */}
-        </a>
+        </button>
 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
