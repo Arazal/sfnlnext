@@ -27,7 +27,7 @@ export default function Herobanner() {
                   Gradient text
                 </p> */}
                 {/* <div className=' space-x-4'> */}
-                  <button  className=" animate-bounce border border-sfsecondary-new1-400 p-3 hover:bg-sfsecondary-new1-500  hover:text-white  m-1"
+                  <button  className=" animate-bounce border border-sfsecondary-new1-400 p-3 bg-sfsecondary-new1-700  text-white hover:bg-white hover:text-black m-1"
                      onClick={handleButtonClick}>GET STARTED</button>
                   {/* <a className="btn-getstarted m-1"
                      href="mailto: laiweicai@sf-express.com">CONTACT US</a> */}

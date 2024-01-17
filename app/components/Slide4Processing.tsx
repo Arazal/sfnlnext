@@ -116,36 +116,36 @@ export default function Slide4() {
         <img className=' warehouse1'  src='/warehouse.svg' height="90px" width="90px" alt='warehouse' />
     </div>
     
-    <div className='flex flex-col items-center m-3'>
+    <div className='flex flex-col items-center gap-3  m-3'>
         <h4 className='m-3'><span className=' text-sfsecondary'>3.</span>Delivery to SF warehouse</h4>
         <img  src='/SFcarNew1.png' height="90px" width="120px" alt='car' className='sf-car1'/>
     </div>
     </div>
    
-      <div className="sf-area mt-3 border-dashed  group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-sfsecondary-new2-300 hover:bg-gray-100 hover:dark:border-sfsecondary-new2-600 hover:dark:bg-neutral-800/30">
+      <div className="sf-area mt-1 border-dashed  group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-sfsecondary-new2-300 hover:bg-gray-100 hover:dark:border-sfsecondary-new2-600 hover:dark:bg-neutral-800/30">
         <h4 className="text-center m-3 text-sfprimary opacity-65">SF Express area</h4>
-      <div className='flex flex-col items-center m-3'>
+      <div className='flex flex-col items-center m-3 gap-3 '>
           <h4 className='m-3'><span className=' text-sfsecondary'>4.</span>SF Warehouse processing: data recheck& pick-up in SF system</h4>
           <img className=' warehouse2' src='/warehouse.svg' height="90px" width="90px" alt='warehouse'/>
       </div>
       
-      <div className='flex flex-col items-center m-3 '>
+      <div className='flex flex-col items-center m-3 gap-3 '>
           <h4 className='m-3'><span className=' text-sfsecondary'>5.</span>Export customs clearance</h4>
           <img className='customs1 ' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
       </div>
       
-      <div className='flex flex-col items-center m-3 '>
+      <div className='flex flex-col items-center m-3 gap-3 '>
           <h4 className='m-3'><span className=' text-sfsecondary'>6.</span>Air transportation to SF hub (CAN / HKG)</h4>
           <img src="/plane.png" height='120px' width='120px' alt='plane' className='plane1' />
       </div>
       
-      <div className='flex flex-col items-center m-3 mb-20'>
+      <div className='flex flex-col items-center m-3 gap-3  mb-20'>
           <h4 ><span className=' text-sfsecondary'>7.</span>Import customs clearance</h4>
           <img className=' customs2' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
       </div>
       
 
-      <div className='flex flex-col items-center m-3 mb-20'>
+      <div className='flex flex-col items-center m-3 gap-3  mb-20'>
           <h4 className='m-3'><span className=' text-sfsecondary'>8.</span>Airfreight from HKG to destination country / Ground&Air shipping from CAN to Mainland China</h4>
           
           <img src="/plane.png" height='120px' width='120px' alt='plane' className='plane2' />
@@ -153,7 +153,7 @@ export default function Slide4() {
       </div>
 
      
-      <div className='flex flex-col items-center m-3 mb-20'>
+      <div className='flex flex-col items-center m-3 gap-3 mb-20'>
           <h4 ><span className=' text-sfsecondary'>9.</span>Last Mile - courier delivery</h4>
           <img className=' express-delivery' src='deliveryman2.svg' height='90px' width='90px' alt='courier'/>
 
