@@ -24,17 +24,17 @@ export default function Home() {
     <div className=''>
       <Herobanner />
       <Slide8 />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Definitions />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Slide3 />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Slide5 />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Slide4 />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Slide9 />
-      {/* <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div> */}
+      <div className="h-3 bg-sfsecondary-new1-700 w-screen "></div>
       <Goodbye />
       <div className="h-3 bg-sfsecondary-new1-700 w-screen"></div>
     </div>

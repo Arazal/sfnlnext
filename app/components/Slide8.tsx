@@ -174,7 +174,7 @@ useEffect(() => {
 
 
 
-    <form onSubmit={handleSubmit} className=" m-3  mx-auto grid grid-cols-2 gap-3 rounded-md  bg-white p-4 text-sfprimary-new1-950 shadow-2xl">
+    <form onSubmit={handleSubmit} className=" m-3  mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-3 rounded-md  bg-white p-4 text-sfprimary-new1-950 shadow-2xl">
  
         <div className="space-y-1">
         <label className='' htmlFor="shipmentType">Select shipment type:</label>

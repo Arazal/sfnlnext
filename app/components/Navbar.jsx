@@ -21,6 +21,16 @@ export default function Navbar() {
             // toggleClass: {targets: 'body', className: 'nav-active'}
           })
         // gsap.set('#nav-plane', { opacity: 0, x: -400})
+         gsap.set('#nav-plane', { opacity: 0, x: -window.innerWidth})
+        gsap.to('#nav-plane', {
+        opacity:1,
+        // scale:1.1,
+        x:0,
+        duration: 9,
+        ease: 'Power0.easeInOut'
+        })
+        gsap.set('#nav-plane', { scale: 1})
+
         gsap.to('#logo', {
         rotation:360,
         duration: 3,
@@ -47,7 +57,7 @@ export default function Navbar() {
                         // style={{width:45, height:45}}
                         alt="Logo"
                         loading="lazy" />
-                        <span className="font-medium dark:text-neutral-200 navtext text-white">Home</span>
+                        {/* <span className="font-medium dark:text-neutral-200 navtext text-white">Home</span> */}
                 </Link>
                 </div>
                 <img ref={plane} id="nav-plane" className="opacity-1" src="plane.png" width="90px" height="45px"/>
@@ -55,10 +65,10 @@ export default function Navbar() {
                      className="mx-2 my-1 flex items-center navtext lg:mb-0 lg:mt-0"
                      href='/guidance' >Guidance
                 </Link> */}
-                <Link
+                {/* <Link
                      className="mx-2 my-1 flex items-center navtext lg:mb-0 lg:mt-0"
                      href='/profile' >Contact
-                </Link>
+                </Link> */}
             </div>
         </nav>    
 
