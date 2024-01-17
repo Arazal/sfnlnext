@@ -4,7 +4,7 @@ export default function Slide3() {
     return (
 
 <div className=''>
-<div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
+
 <h3 className='text-center text-4xl m-3'>SF Economy Express (International) Target Marketing</h3>
 <p className='text-center m-3'>Time-sensetive:focusing on electronics, auto parts, clothing and fresh industries, providing market- leading timeliness and services</p>
    

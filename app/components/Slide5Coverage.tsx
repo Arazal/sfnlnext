@@ -4,7 +4,7 @@ import Table from './Table'
 export default function Slide5() {
     return (
         <div className="mt-12 mx-auto">
-            <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
+            
             <h1 className='text-center text-4xl'>SF Economy Express (International) Coverage</h1>
             <h3 className="text-center"><span className="text-white bg-sfsecondary ">Service Coverage: </span>23 Countries and Regions, from NL to Asia/North America etc.</h3>
             <h3 className="text-center"><span className="text-white bg-sfsecondary ">Transit Time:</span> 5-12 working days</h3>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Definitions() {
     return (
         <div className='definitions md:mt-36 text-center font-miller '>
-            <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
+         
             <h1 className=" font-miller  text-center text-4xl">SF Economy Express (International) Definitions</h1>
             <p className='m-6'>SF Economy Express (International) is an international economy express delivery serivce launched for customers who need ship middle/high-value commodities and who are demanding on transit time and service</p>
        
