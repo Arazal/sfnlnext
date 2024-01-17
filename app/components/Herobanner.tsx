@@ -1,8 +1,12 @@
 import MapSF from '../components/MapSF'
+import { gsap } from "gsap";
+import {ScrollToPlugin} from "gsap/ScrollToPlugin"
+
+gsap.registerPlugin(ScrollToPlugin);
 
 export default function Herobanner() {
     const handleButtonClick = () => {
-        gsap.to(window, { duration: 4, scrollTo: { y: '.btn-scrollto', offsetY: 150 } });
+        gsap.to(window, { duration: 4, scrollTo: { y: '.definitions', offsetY: 0 } });
       }
     return (
         <section className=" mt-24 m-3 rounded">
@@ -23,10 +27,10 @@ export default function Herobanner() {
                   Gradient text
                 </p> */}
                 {/* <div className=' space-x-4'> */}
-                  <button  className="btn-getstarted  m-1"
+                  <button  className=" animate-bounce border border-sfsecondary-new1-400 p-3 hover:bg-sfsecondary-new1-500  hover:text-white  m-1"
                      onClick={handleButtonClick}>GET STARTED</button>
-                  <a className="btn-getstarted m-1"
-                     href="mailto: laiweicai@sf-express.com">CONTACT US</a>
+                  {/* <a className="btn-getstarted m-1"
+                     href="mailto: laiweicai@sf-express.com">CONTACT US</a> */}
                 {/* </div> */}
                 
               </div>
