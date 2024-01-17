@@ -90,30 +90,30 @@ export default function Slide4() {
 
 
     return (
-        <div className=" ml-auto mr-auto btn-scrollto ">
+        <div className=" overflow-x-hidden btn-scrollto ">
  
 
-<h3 className='btn-scrollto hero-text mt-20 text-center text-sfprimary opacity-85 m-3'>SF Economy Express (International) Processing</h3>
+<h1 className='btn-scrollto text-4xl hero-text mt-20 text-center text-sfprimary opacity-85 m-3'>SF Economy Express (International) Processing</h1>
 <h4 className='text-center'>Transit time: 5-12 working days</h4>
 {/* <h4 className='text-center'>SEA: 3-6 working days</h4>
 <h4 className='text-center mb-5'>Other destinations: 4-9 working days</h4> */}
 <h4 className='text-center m-3'>Payments of Tax/Duty: DDP &DDU</h4>
 <h4 className='text-center m-3 text-sfsecondary'>Product Service: NL Warehouse to door, customer shall delivery the shipments to NL warehouse (Address:Bellsingel 61, 1119 NT Schiphol-Rijk Netherlands)</h4>
 
-<div className='grid grid-cols-1 '>
+<div className='grid grid-cols-1 mb-5 w-5/6 mx-auto shadow-2xl'>
     <div className="border-dashed  group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-sfsecondary-new2-300 hover:bg-gray-100 hover:dark:border-sfsecondary-new2-600 hover:dark:bg-neutral-800/30">
       <h4 className="text-center m-3 text-sfprimary opacity-65">Customer area</h4>
       <h4 className="text-center m-3 text-sfprimary opacity-65">With MRN document in case `{'>'}` € 1000</h4>
       <div className='flex flex-col items-center m-3'>
         <h4 className='m-3'><span className=' text-sfsecondary'>1.</span> Place order via API/web</h4>
-         <img className='dark:invert api' src='/api.svg' height="90px" width="90px" alt='api' />
+         <img className=' api' src='/api.svg' height="90px" width="90px" alt='api' />
          <Link target="_blank" className="btn-getstarted  m-3 inline-block rounded bg-white  border-2 border-sfsecondary hover:bg-sfsecondary text-black px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal "
             data-te-ripple-init data-te-ripple-color="light" href="https://iuop.sf.global/#/" role="button">SF IUOP</Link>
         </div>
     
     <div className='flex flex-col items-center m-3'>
         <h4 className='m-3'><span className=' text-sfsecondary'>2.</span>Labeling of SF Waybill</h4>
-        <img className='dark:invert warehouse1'  src='/warehouse.svg' height="90px" width="90px" alt='warehouse' />
+        <img className=' warehouse1'  src='/warehouse.svg' height="90px" width="90px" alt='warehouse' />
     </div>
     
     <div className='flex flex-col items-center m-3'>
@@ -126,12 +126,12 @@ export default function Slide4() {
         <h4 className="text-center m-3 text-sfprimary opacity-65">SF Express area</h4>
       <div className='flex flex-col items-center m-3'>
           <h4 className='m-3'><span className=' text-sfsecondary'>4.</span>SF Warehouse processing: data recheck& pick-up in SF system</h4>
-          <img className='dark:invert warehouse2' src='/warehouse.svg' height="90px" width="90px" alt='warehouse'/>
+          <img className=' warehouse2' src='/warehouse.svg' height="90px" width="90px" alt='warehouse'/>
       </div>
       
       <div className='flex flex-col items-center m-3 '>
           <h4 className='m-3'><span className=' text-sfsecondary'>5.</span>Export customs clearance</h4>
-          <img className='customs1 dark:invert' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
+          <img className='customs1 ' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
       </div>
       
       <div className='flex flex-col items-center m-3 '>
@@ -141,7 +141,7 @@ export default function Slide4() {
       
       <div className='flex flex-col items-center m-3 mb-20'>
           <h4 ><span className=' text-sfsecondary'>7.</span>Import customs clearance</h4>
-          <img className='dark:invert customs2' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
+          <img className=' customs2' src='/customs.svg' height='90px' width='90px'  alt='customs'/>
       </div>
       
 
@@ -155,7 +155,7 @@ export default function Slide4() {
      
       <div className='flex flex-col items-center m-3 mb-20'>
           <h4 ><span className=' text-sfsecondary'>9.</span>Last Mile - courier delivery</h4>
-          <img className='dark:invert express-delivery' src='deliveryman2.svg' height='90px' width='90px' alt='courier'/>
+          <img className=' express-delivery' src='deliveryman2.svg' height='90px' width='90px' alt='courier'/>
 
           <Link target="_blank" className="btn-getstarted  m-5 inline-block rounded bg-white  border-2 border-sfsecondary hover:bg-sfsecondary text-black px-12 pt-4 pb-3.5 text-sm font-bold uppercase leading-normal "
             data-te-ripple-init data-te-ripple-color="light" href="https://www.sf-international.com/cn/en/support/querySupport/waybill" role="button">Tracking</Link>

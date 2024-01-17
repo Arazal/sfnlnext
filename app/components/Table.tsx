@@ -7,9 +7,9 @@ export default function Table() {
     <h4 className="text-center m-3">SF Economy Express (International) Coverage</h4> */}
 
     <section className="grid grid-cols-3 gap-1 m-3  mx-auto group text-sm">
-      <div className="text-center bg-sfprimary-new1-950 text-primary-50">Zone Area</div>
-      <div className="text-center bg-sfprimary-new1-950 text-primary-50">Destinations (ex AMS)</div>
-      <div className="text-center bg-sfprimary-new1-950 text-primary-50">Ttransit Time (working days)</div>
+      <div className="text-center bg-sfprimary-new1-300 text-primary-50">Zone Area</div>
+      <div className="text-center bg-sfprimary-new1-300 text-primary-50">Destinations (ex AMS)</div>
+      <div className="text-center bg-sfprimary-new1-300 text-primary-50">Ttransit Time (working days)</div>
       <div className="text-center bg-[#FF0100]">A</div>
       <div className="text-center bg-[#FF0100] ">
           <p>China mainland</p>
