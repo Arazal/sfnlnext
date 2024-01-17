@@ -14,7 +14,7 @@ export default function Herobanner() {
               <div
                 className=" opacity-85  mt-[-350px] md:mt-[-150px] block rounded-lg  px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-sm md:py-16 md:px-12">
                 {/* className=" opacity-80 mt-[-350px] md:mt-[-150px] block rounded-lg bg-[hsla(0,0%,100%,0.55)] bg-[hsla(0,0%,100%,0.7)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:py-16 md:px-12"> */}
-                <h1 className=" font-dunhill  animate-herotext pb-3 text-sfsecondary-new1-700 mb-16 text-7xl font-extrabold tracking-tight md:text-6xl xl:text-7xl">
+                <h1 className=" font-dunhill  animate-herotext pb-3 text-sfsecondary-new1-700 mb-16 sm:text-5xl font-extrabold tracking-tight md:text-6xl xl:text-7xl">
                 {/* <h1 className="hero-text pb-3 text-sfprimary mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl"> */}
                   Deliver <br /><span className="font-miller text-sfprimary-new1-950">on our every promise</span>
                 </h1>

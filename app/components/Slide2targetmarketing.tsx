@@ -25,7 +25,7 @@ export default function Slide3() {
   height={900}
 />
 <div className='col-start-2 col-end-3 row-start-1 row-end-1 flex flex-col justify-around items-end'>
-<div className='w-1/2'>
+<div className='w-2/3'>
 <Image 
   className=' mb-3'
   src={'/retail.svg'}
@@ -36,7 +36,7 @@ export default function Slide3() {
 <p>Retail</p>
 </div>
 
-<div className='w-1/2'>
+<div className='w-2/3'>
 <Image 
   className=' mb-3'
   src={'/automobile-industry.svg'}
@@ -47,7 +47,7 @@ export default function Slide3() {
 <p>Automobile industry</p>
 </div>
 
-<div className='w-1/2'>
+<div className='w-2/3'>
 <Image 
   className=' mb-3'
   src={'/3c.svg'}
@@ -58,7 +58,7 @@ export default function Slide3() {
 <p>3C</p>
 </div>
 
-<div className='w-1/2'>
+<div className='w-2/3'>
 <Image 
 //   className='col-start-1 row-start-1'
   src={'/electronic.svg'}
@@ -69,7 +69,7 @@ export default function Slide3() {
 <p>Electronic</p>
 </div>
 
-<div className='w-1/2'>
+<div className='w-2/3'>
 <Image 
 //   className='col-start-1 row-start-1'
   src={'/clothing.svg'}
