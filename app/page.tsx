@@ -12,6 +12,7 @@ import Slide4 from './components/Slide4Processing';
 import Slide9 from './components/Slide9';
 import Goodbye from './components/Goodbye';
 import Slide8 from './components/Slide8';
+import MenuButtons from './components/MenuButtons';
 
 gsap.registerPlugin(ScrollToPlugin)
 
@@ -23,7 +24,8 @@ export default function Home() {
   return (
     <div className=''>
       <Herobanner />
-      <Slide8 />
+      <MenuButtons />
+      
       <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Definitions />
       <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
@@ -33,6 +35,7 @@ export default function Home() {
       <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
       <Slide4 />
       <div className="h-3 bg-sfsecondary-new1-700 w-screen my-24"></div>
+      <Slide8 />
       <Slide9 />
       <div className="h-3 bg-sfsecondary-new1-700 w-screen "></div>
       <Goodbye />

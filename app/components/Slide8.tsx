@@ -154,7 +154,7 @@ useEffect(() => {
 
     return (
         
-    <div className=' md:w-1/2 mx-auto m-3 mt-12'>
+    <div className='ratespolicy md:w-1/2 mx-auto m-3 mt-12'>
         <h3 className='text-center text-3xl'>SF Economy Express(International) Rates Policy</h3>
         {/* <div>{`Zone ${countryList[selectedCountry]}`}</div>
         <div>{`volumetric weight (L x W x H (cm) ÷ 5,000): ${volumicWeight}`}</div>

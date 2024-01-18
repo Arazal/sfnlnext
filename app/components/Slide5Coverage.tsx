@@ -3,7 +3,7 @@ import Table from './Table'
 
 export default function Slide5() {
     return (
-        <div className="mt-12 mx-auto">
+        <div className="coverage mt-12 mx-auto">
             
             <h1 className='text-center text-4xl'>SF Economy Express (International) Coverage</h1>
             <h3 className="text-center"><span className="text-white bg-sfsecondary ">Service Coverage: </span>23 Countries and Regions, from NL to Asia/North America etc.</h3>

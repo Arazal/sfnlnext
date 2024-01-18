@@ -12,6 +12,10 @@ export default function Navbar() {
     const plane = useRef(null)
     const logo = useRef(null)
 
+    const handleButtonClick = () => {
+        gsap.to(window, { duration: 4, scrollTo: { y: '.herobanner', offsetY: 10 } });
+      }
+
     useEffect(() => {
         ScrollTrigger.create({
             // markers: true,
@@ -36,6 +40,8 @@ export default function Navbar() {
         duration: 3,
         ease: 'Power0.easeInOut'
         })
+
+       
     }, [])
 
     return (
@@ -43,9 +49,10 @@ export default function Navbar() {
             className="fixed top-0 backdrop-blur-lg z-10 opacity-95 flex w-full flex-wrap items-center justify-between bg-sfprimary py-1  shadow-lg  lg:py-2 ">
             <div className="flex w-full flex-wrap items-center justify-between px-3">
                 <div>
-                <Link
-                    className="mx-2 my-0 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
-                    href="/">
+                <div
+                    onClick={handleButtonClick}
+                    className="hover:cursor-pointer mx-2 my-0 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0"
+                    >
                     <Image
                         ref={logo}
                         id="logo"
@@ -58,7 +65,7 @@ export default function Navbar() {
                         alt="Logo"
                         loading="lazy" />
                         {/* <span className="font-medium dark:text-neutral-200 navtext text-white">Home</span> */}
-                </Link>
+                </div>
                 </div>
                 <img ref={plane} id="nav-plane" className="opacity-1" src="plane.png" width="90px" height="45px"/>
                 {/* <Link
